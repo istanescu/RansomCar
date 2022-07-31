@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RansomCar</string>
+    <string name="action_settings">Launch</string>
+    <string name="ransommess">Sorry, your car has been hacked! Follow the instructions below if you want to regain control of your car</string>
+    <string name="ransomMessage">Oops, your car has been hacked, pay the ransom to unlock it!</string>
+    <string name="unblock_files">Unblock Files</string>
+    <string name="enter_decryption_key">Insert decryption key</string>
+    <string name="payInstruction">Transfer 1 ETH into 0x43958653f34a0ee798f6801722aed903c6dd7fe9 and mail the transaction hash and the below text to payransom@protonmail.com to get the unlock code.</string>
+    <string name="unlockButton">Unlock the car</string>
+    <string name="formHint">type your unlock code</string>
+    <string name="installingHint">Launching&#8230;</string>
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ransomware" >
+
+    <EditText
+        android:id="@+id/mailCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="33dp"
+        android:layout_marginLeft="100dp"
+        android:maxLength="50"
+        android:ems="10"
+        android:hint="@string/formHint" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/unlockButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/mailCode"
+        android:layout_toRightOf="@+id/mailCode"
+        android:layout_marginRight="100dp"
+        android:text="@string/unlockButton" />
+
+    <TextView
+        android:id="@+id/ransomMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/ransomMessage"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#2BFF00"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/payInstruction"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ransomMessage"
+        android:layout_below="@+id/ransomMessage"
+        android:layout_marginTop="21dp"
+        android:gravity="center"
+        android:text="@string/payInstruction"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:id="@+id/secretText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/payInstruction"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textStyle="bold"
+        android:textColor="#2BFF00" />
+
+</RelativeLayout>
